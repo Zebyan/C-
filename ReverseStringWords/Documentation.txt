@@ -1,0 +1,21 @@
+Reverse every word in a message:
+
+input:string pangram = "The quick brown fox jumps over the lazy dog";
+
+-Write the code necessary to reverse the letters of each word in place and display the result
+
+output:ehT kciuq nworb xof spmuj revo eht yzal god
+
+Solution:
+1.Create a string array message that takes every word in pangram
+-to do that i use Split(' '),that way every element in message will
+be a word from pangram
+
+2.Create a new string arrat newMessage that stores a reversed copy
+of the words from message
+
+3.Loop throug each element in the message array, then we reverse it and
+is stored in newMessage array
+
+4.Use Join(" ", newMessage), to create a new string array that has the elements
+from newMessage but separated by a space, to generate the final output
